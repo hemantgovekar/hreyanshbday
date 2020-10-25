@@ -1,7 +1,7 @@
 
 function getHreyanshBday() {
     today = new Date();
-    var cmas = new Date(today.getFullYear(), 09, 16);
+    var cmas = new Date(today.getFullYear() + 1, 09, 16);
 
     if (today.getMonth() == 10 && today.getDate() > 16) {
         cmas.setFullYear(cmas.getFullYear() + 1);
